@@ -1,0 +1,197 @@
+.home {
+  background-color: #44befd;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+  gap: 5rem;
+}
+.introContent {
+  max-width: 40rem;
+}
+.introContent p {
+  font-size: 2rem;
+}
+.introContent div {
+  color: #e7e7e7;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.introContent div span {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.resumeButton,
+.getButton,
+.moreButton {
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.resumeButton,
+.moreButton {
+  background-color: #054491;
+}
+
+.getButton {
+  background-color: #5bc8ff;
+  margin-left: 20px;
+}
+
+.resumeButton:hover,
+.resumeButton:focus,
+.moreButton:hover,
+.moreButton:focus {
+  background-color: #06346b;
+}
+
+.getButton:hover,
+.getButton:focus {
+  background-color: #71d0ff;
+}
+
+.workEducation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+
+.workEx,
+.education {
+  max-width: 400px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 10px 20px 30px;
+  margin: 30px;
+  opacity: 0.7;
+}
+
+.workHeader,
+.educationHeader {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 45px;
+  margin-left: 50px;
+}
+
+.philosophy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.philosophy div {
+  max-width: 500px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 10px 20px 30px;
+  margin: 30px;
+  opacity: 0.7;
+}
+
+.philosophyHeader {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+}
+
+.philSid {
+  width: 40rem;
+}
+
+/* .cloud1 {
+    position: absolute;
+    padding-left: 600px;
+    margin-top: -350px;
+    height: 700px;
+    z-index: 2;
+}
+
+.cloud2 {
+    position: absolute;
+    margin-top: -550px;
+    height: 600px;
+    margin-left: 1250px;
+    object-fit: contain;
+} */
+
+@media screen and (max-width: 1000px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 0;
+  }
+  .introContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .workEducation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .philosophy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+  }
+
+  .philosophyHeader {
+    margin-top: 30px;
+  }
+
+  .laptopSid,
+  .doorSid {
+    width: 20rem;
+  }
+
+  .philSid {
+    width: 23rem;
+  }
+}

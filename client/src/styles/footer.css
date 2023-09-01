@@ -1,0 +1,22 @@
+.footerLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  padding-top: 1rem;
+}
+
+.footerLinks a img {
+  width: 3rem;
+}
+
+footer {
+  background-color: #328bb9;
+}
+
+.footerHead {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
